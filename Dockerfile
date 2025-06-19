@@ -5,7 +5,7 @@ FROM jboss/wildfly:10.0.0.Final
 ADD postgresql.jar /opt/jboss/wildfly/standalone/deployments/
 
 # Add your application WAR file to deployments
-ADD your-SearchPath.war /opt/jboss/wildfly/standalone/deployments/
+ADD SearchPath.war /opt/jboss/wildfly/standalone/deployments/
 
 # Expose WildFly port
 EXPOSE 8080
